@@ -1,0 +1,106 @@
+.general {
+    background: black;
+    display: grid;
+    text-align: center;
+    align-items: center;
+}
+.photo_1 {
+    position: absolute;
+    left: -76px;
+    top: 344px;
+    background-image: url("assets/images/Rectangle18.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 535px;
+    width: 605px;
+}
+.photo_2 {
+    position: absolute;
+    width: 377.09px;
+    height: 533.07px;
+    right: 0;
+    top: 214.85px;
+    background-image: url("assets/images/Rectangle19.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.container {
+    position: relative;
+    display: grid; 
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(8, 1fr);
+    grid-row-gap: 5px;
+    grid-column-gap: 5px;
+    text-align: center;
+}
+.creative {
+    position: absolute;
+    width: 688px;
+    height: 312px;
+    left: 165.05px;
+    top: 200px;
+    margin: 0;
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 220px;
+    line-height: 412px;
+    z-index: 5;
+}
+.design {
+    position: absolute;
+    width: 419px;
+    height: 280px;
+    left: 304.55px;
+    top: 424.14px;
+    margin: 0;
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 200px;
+    line-height: 380px;
+    z-index: 5;
+}
+.main_portfolio {
+    grid-column-start: 4;
+    grid-column-end: 5;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+.main_about {
+    grid-column-start: 5;
+    grid-column-end: 6;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+.main_testimonials {
+    grid-column-start: 6;
+    grid-column-end: 7;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+.main_contact {
+    grid-column-start: 7;
+    grid-column-end: 8;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+.main_get {
+    grid-column-start: 6;
+    grid-column-end: 7;
+    grid-row-start: 7;
+    grid-row-end: 8;
+}
+
+.section_logo {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+.lorem {
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 3;
+    grid-row-end: 4;
+}
